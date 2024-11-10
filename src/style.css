@@ -35,12 +35,12 @@
     height:8%;
     overflow: hidden;
     color: darkmagenta;
-    border-right: 8px solid darkmagenta;
+    /* border-right: 8px solid darkmagenta; */
     transition: 3s ease-in;
  }
  .root:hover{
     .demo::before{
-        width:35%;
+        width:50%;
         filter: drop-shadow(0 0 25px darkmagenta);
      }
  }

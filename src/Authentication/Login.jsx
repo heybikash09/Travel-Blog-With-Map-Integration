@@ -5,10 +5,16 @@ function Login() {
   return (
     <div className="flex min-h-screen">
       {/* Left Side - Welcome Message */}
-      <div className="flex-1 bg-gray-900 text-white flex items-center justify-center p-8">
-        <div>
-          <h1 className="text-4xl font-bold mb-2">Welcome,</h1>
-          <p className="text-xl">Looks like you're new here!</p>
+      <div className="flex-1 bg-gray-900 text-white  items-center justify-center p-8 flex-shrink-0 md:w-1/2 sm:hidden md:flex hidden">
+        <div className=" text-wrap">
+          <h1
+            className=" demo lg:text-6xl md:text-3xl font-serif font-bold"
+          >
+       Welcome...Users
+          </h1>
+          <p className="md:text-2xl sm:text-xl font-mono">
+            Let your memory stay with us forever !!!!{" "}
+          </p>
         </div>
       </div>
 

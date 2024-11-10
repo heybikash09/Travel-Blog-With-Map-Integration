@@ -10,14 +10,14 @@ function Signup() {
   return (
     <div className=" root flex min-h-screen">
       {/* Left Side - Welcome Message */}
-      <div className="flex-1 bg-gray-900 text-white flex items-center justify-center p-8">
-        <div>
+      <div className="flex-1 bg-gray-900 text-white  items-center justify-center p-8 flex-shrink-0 md:w-1/2 sm:hidden md:flex hidden">
+        <div className=" text-wrap">
           <h1
-            className=" demo text-6xl font-serif font-bold"
+            className=" demo lg:text-6xl md:text-3xl font-serif font-bold"
           >
        Welcome...Users
           </h1>
-          <p className="text-2xl font-mono">
+          <p className="md:text-2xl sm:text-xl font-mono">
             Let your memory stay with us forever !!!!{" "}
           </p>
         </div>
